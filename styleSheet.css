@@ -1,0 +1,242 @@
+/*/* left sidebar */
+
+a[href] {
+  text-decoration: none;
+}
+
+@media(min-width: 992px) {
+  .pkp_structure_sidebar {
+    float: left;
+  }
+  .pkp_structure_main {
+    float: right;
+  }
+
+  .pkp_structure_main:before {
+    left: 300px; /*300px*/
+  }
+
+  .pkp_structure_main:after {
+    left: 952px; /*952px*/
+  }
+}
+
+@media(min-width: 1200px) {
+  .pkp_structure_main:after {
+    left: 1160px;
+  }
+}
+
+.pkp_structure_main::before, .pkp_structure_main::after {
+    background: none;
+
+}
+
+.cmp_monographs_list{
+	border: none !important;
+}
+
+.pkp_page_index .additional_content {
+	border: none;
+}
+/* end left sidebar */
+
+/* sidebar with lines */
+.pkp_structure_sidebar div > div > ul > li{
+	border-bottom: 2px solid #005680;
+}
+
+.pkp_structure_sidebar .title {
+	font-size: 17px;
+}
+
+#customblock-langsci-sidenavi {
+	padding-top: 19px ;
+	font-size: 15px;
+	padding-bottom: 0;
+}
+
+#customblock-langsci-sidenavi a {
+	color:  #005680;
+}
+
+#customblock-langsci-sidenavi li {
+	padding: 7px 0px 7px 0px !important;
+}
+
+/* logo nach rechts */
+
+.pkp_site_name {
+	margin-bottom: -48px;
+}
+
+.pkp_site_name .is_img img {
+    padding-left: 30px;
+
+}
+
+/* primary navigation */
+
+.pkp_navigation_primary_wrapper  {
+
+	padding-left: 330px;
+
+}
+
+/* slider */
+
+.swiper-container {
+	padding-top: 20px;
+}
+
+/* boxes at homepage*/
+
+.langsci-icon-box {
+    background-color: white;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+.langsci-icon-box:hover {
+    background-color: #eee;
+    border-radius: 5px;
+}
+.langsci-icon-box:hover .langsci-startpage-image {
+    background-color: #eee;
+    opacity: 1;
+}
+.langsci-icon-box:hover .a {
+    color: #005680 !important;
+}
+.langsci-icon-box-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+	height: 60px;
+	width: 60px;
+}
+
+.langsci-icon-box-image:hover  {
+	opacity: 1;
+}
+
+@media(min-width: 992px) {
+	.langsci-icon-box {
+		width: 50%;
+	}
+}
+
+@media(min-width: 1200px) {
+	.langsci-icon-box {
+		width: 25%;
+	}
+}
+/* end boxes at homepage*/
+
+/* footer */
+
+.pkp_structure_footer_wrapper {
+	background-color: #1e6292;
+}
+
+.shariff {
+	display:none;
+}
+
+.clear_left{
+	clear: left;
+}
+
+.pkp_brand_footer{
+	float: right;
+}
+
+.pkp_footer_content, .pkp_footer_content a{
+	color: white;
+}
+
+.langsci_footer_navi {
+	margin-top: -50px;
+}
+
+.langsci_footer_navi div{
+	float: left;
+	display: inline-block;
+	width: 100%;
+}
+
+.langsci_footer_navi ul{
+	padding-left: 13px;
+}
+
+.langsci_footer_meta{
+	float: left;
+}
+
+.langsci_footer_meta a{
+	padding-right: 15px;
+}
+
+@media(min-width: 992px) {
+	.langsci_footer_navi div{
+		width: 33%;
+	}
+}
+
+@media(min-width: 1200px) {
+	.langsci_footer_navi div{
+		width: 20%;
+	}
+}
+
+.pkp_brand_footer img {
+	width: 100px;
+	margin-top:-40px;
+}
+/* end footer */
+
+
+
+/* Reihennr. aus Katalog (Ãœbersichtsseite) entfernen */
+.obj_monograph_summary .seriesPosition {
+	display:none;
+}
+
+/* Reihenseiten sollen nicht kursiv sein */
+.page_catalog_series .description {
+	font-style: normal;
+}
+
+/* breadcrumbs ausblednen, Seiten dafÃ¼r tiefer ansetzen*/
+.cmp_breadcrumbs {
+	display:none;
+}
+.page {
+	padding-top:10px;
+}
+
+/* SN mod */
+
+/* side pane first level orderings in small caps */
+div.content > ul > li > a {
+    font-variant: all-small-caps;
+}
+
+/* no dates for monographs */
+
+div.obj_monograph_summary div.date{
+    display:none;
+}
+
+
+
+
+
+
+
+
