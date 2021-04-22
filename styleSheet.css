@@ -233,6 +233,14 @@ div.obj_monograph_summary div.date{
     display:none;
 }
 
+div.about_section.has_image.has_description div.cover{
+    display:none;
+}
+
+
+div.page_catalog_series div.monograph_count{
+    display:none;
+}
 
 
 
