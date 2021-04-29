@@ -243,8 +243,13 @@ div.page_catalog_series div.monograph_count{
 }
 
 
+.keywords {
+    display:none;
+}
 
-
+div.item.copyright {
+    display: none;
+}
 
 
 
