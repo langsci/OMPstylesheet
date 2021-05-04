@@ -251,5 +251,11 @@ div.item.copyright {
     display: none;
 }
 
+.page > ul > li > span.date{
+    font-weight: bold;
+}
 
 
+.date_published{
+    display:none;
+}
