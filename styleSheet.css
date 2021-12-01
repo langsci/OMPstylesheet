@@ -225,6 +225,7 @@ a[href] {
 /* side pane first level orderings in small caps */
 div.content > ul > li > a {
     font-variant: all-small-caps;
+    color: rgba(0,0,0,0.54) !important;
 }
 
 /* no dates for monographs */
