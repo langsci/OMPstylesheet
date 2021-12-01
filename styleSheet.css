@@ -260,3 +260,7 @@ div.item.copyright {
 .date_published{
     display:none;
 }
+
+.pkp_search_desktop {
+     display: none;
+}
